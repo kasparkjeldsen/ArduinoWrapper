@@ -10,12 +10,12 @@ public class WinCom
     /// <summary>
     /// Best effort to get the right port to connect to. 
     /// NO PROMISES
+    /// Windows part.
     /// </summary>
     /// <returns></returns>
     public static string GetArduinoCOMPortWindows()
     {
         List<String> list = new List<String>();
-
         ManagementObjectSearcher searcher2 = new ManagementObjectSearcher("SELECT * FROM Win32_PnPEntity");
         String ardo = String.Empty;
         foreach (ManagementObject mo2 in searcher2.Get())
@@ -29,9 +29,6 @@ public class WinCom
         }
         ardo = ardo.Substring(ardo.IndexOf("COM"));
         ardo = ardo.Substring(0, ardo.Length - 1);
-
         return ardo;
     }
-
-
 }

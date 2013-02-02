@@ -1,9 +1,9 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arduino", "Arduino\Arduino.csproj", "{97C6D567-0A98-41A5-B799-EADDF6009015}"
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual C# Express 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arduino", "Arduino\Arduino.csproj", "{750B78D0-E581-4198-A2F4-AFD97E369147}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Testing", "Testing\Testing.csproj", "{73651C0C-EF91-45DE-9813-4C755247E876}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Testing", "Testing\Testing.csproj", "{9BC4371A-88B3-4DEA-B60E-D49610D3325F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,14 +11,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{97C6D567-0A98-41A5-B799-EADDF6009015}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{97C6D567-0A98-41A5-B799-EADDF6009015}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{97C6D567-0A98-41A5-B799-EADDF6009015}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{97C6D567-0A98-41A5-B799-EADDF6009015}.Release|Any CPU.Build.0 = Release|Any CPU
-		{73651C0C-EF91-45DE-9813-4C755247E876}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{73651C0C-EF91-45DE-9813-4C755247E876}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{73651C0C-EF91-45DE-9813-4C755247E876}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{73651C0C-EF91-45DE-9813-4C755247E876}.Release|Any CPU.Build.0 = Release|Any CPU
+		{750B78D0-E581-4198-A2F4-AFD97E369147}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{750B78D0-E581-4198-A2F4-AFD97E369147}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{750B78D0-E581-4198-A2F4-AFD97E369147}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{750B78D0-E581-4198-A2F4-AFD97E369147}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9BC4371A-88B3-4DEA-B60E-D49610D3325F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BC4371A-88B3-4DEA-B60E-D49610D3325F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BC4371A-88B3-4DEA-B60E-D49610D3325F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BC4371A-88B3-4DEA-B60E-D49610D3325F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
